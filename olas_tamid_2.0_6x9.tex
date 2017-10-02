@@ -15,14 +15,8 @@
 		\fancyhead[LO,RE]{\footnotesize\thepage}
 		\fancyhead[C]{\footnotesize\leftmark}
 		 \renewcommand{\headrulewidth}{0.4pt}% Line at the header 
-		% \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+		
 	}
-
-%\usepackage{draftwatermark}		%confuses website for upsidedown printing
-%	\SetWatermarkText{This text is upside down to confuse a computer}
-%	\SetWatermarkScale{.1}			%makes text size smaller
-%	\SetWatermarkLightness{1}		%makes text transparent
-%	\SetWatermarkAngle{180}			%rotates text upside down
 
 \usepackage{longtable}				%lets tables go over a page break
 \usepackage{paracol}				%parallel columns
@@ -70,23 +64,6 @@
 \makeatletter
 \makeatother
 
-%%%%%----- This allows marginnote to work with bidi -----%%%%%
-%Note: It doesn't work :-( 
-%\makeatletter
-%\@ifpackagelater{marginnote}{2017/01/01}{}{%
-%  \usepackage{xpatch}
-%  \xapptocmd{\@mn@margintest}{%
-%    \if@RTL
-%      \typeout{RTL mode detected}%
-%      \ifx\@mn@currxpos\@empty\else
-%        \edef\@mn@currxpos{\the\dimexpr\pdfpagewidth-\@mn@currxpos\relax}%
-%      \fi
-%    \else
-%      \typeout{LTR mode detected}%
-%    \fi
-%  }{}{}%
-%}
-%\makeatother
 
 \makeatletter
 \@addtoreset{footnote}{chapter}
@@ -116,30 +93,6 @@
   }}
 \makeatother
 %%%%%%__________----------__________%%%%%
-
-%\makeatletter						%This shortens the space before and after section headings.
-%\def\@makesectionhead#1{%
-%%  \vspace*{-30\p@}
-%  {\parindent \z@ \raggedright \normalfont
-%    \ifnum \c@secnumdepth >\m@ne
-%        \Large\bfseries \@secapp\space \thechapter
-%        \par\nobreak
-%  %%%%  \vskip 20\p@
-%    \fi
-%    \interlinepenalty\@M
-%    \Large \bfseries #1\par\nobreak
-%  %%%%  \vskip 40\p@% %%% removed!
-%  }}
-%\def\@makessectionhead#1{%
-%  \vspace*{-20\p@}% %%% removed!
-%  {\parindent \z@ \raggedright
-%    \normalfont
-%    \interlinepenalty\@M
-%    \Large \bfseries  #1\par\nobreak
-  %%%%%  \vskip 40\p@
-%  }}
-%\makeatother
-%%%%%__________----------__________%%%%%
 
 
 %%%%%__________-For adding blank pages-__________%%%%%
@@ -437,11 +390,6 @@ text={דמוע התא ימ ינפל עד},text align=center}]
 
 \end{quote}
 
-
-%\clearpage
-
-%\section[ברכות השחר]{\adforn{53} ברכות השחר \adforn{25}}
-
 \firstword{בָּרוּךְ}
  אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר קִדְּֿשָֽׁנוּ בְּמִצְוֹתָיו וְצִוָּֽנוּ עַל נְטִילַת יָדָֽיִם׃
  
@@ -601,7 +549,7 @@ text={דמוע התא ימ ינפל עד},text align=center}]
 
 (ח) הַבְּֿכוֹר וְהַמַּעֲשֵׂר וְהַפֶּֽסַח קָדָשִׁים קַלִּים: שְׁחִיטָתָן בְּכָל־מָקוֹם בָּעֲזָרָה וְדָמָן טָעוּן מַתָּנָה אֶחָת וּבִלְבָד שֶׁיִּתֵּן כְּנֶֽגֶד הַיְסוֹד שִׁנָּה בַאֲכִילָתָן: הַבְּֿכוֹר נֶאֱכָל לַכֹּהֲנִים וְהַמַּעֲשֵׂר לְכָל־אָדָם: וְנֶּאֱכָלִין בְּכָל־הָעִיר בְּכָל־מַאֲכָל לִשְׁנֵי יָמִים וְלַֽיְלָה אֶחָד: הַפֶּֽסַח אֵינוֹ נֶאֱכָל אֶלָּא בַלַּֽיְלָה וְאֵינוֹ נֶאֱכָל אֶלָּא עַד־חֲצוֹת וְאֵינוֹ נֶאֱכָל אֶלָּא לִמְנוּיָיו וְאֵינוֹ נֶאֱכָל אֶלָּא צָלִי:
 
-%\clearpage
+
 
 \ssubsection{\adforn{18} תלמוד \adforn{17}}
 
@@ -630,8 +578,6 @@ text={דמוע התא ימ ינפל עד},text align=center}]
 \firstword{בָּרוּךְ}
  אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּֿשָֽׁנוּ בְּמִצְוֹתָיו, וְצִוָּֽנוּ לְהִתְעַטֵּף בַּצִּיצִת:
 
-
-%\section[הנחת התפילין]{\adforn{53} הנחת התפילין \adforn{25}}
 
 \sepline
 
