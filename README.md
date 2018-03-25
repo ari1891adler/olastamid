@@ -10,4 +10,4 @@ Packages used: fancyhdr, longtable,paracol,multirow,multicol,xcolor,pbox, wrapfi
 
 Shlomo font available under SIL OFL available here: http://opensiddur.org/helpful-guides/fonts/
 
-More resources for the home and shul can be found at http://OlasTamid.com/. Not all of the resources are strictly of the Western European tradition.
+You can purchase a print copy for yourself at http://dimus.parrhesia.press/shop/siddurim/siddur-olas-tamid-compiled-by-aaron-wolf/
